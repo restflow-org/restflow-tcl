@@ -1,0 +1,18 @@
+
+imports:
+
+- classpath:/common/types.yaml
+
+types:
+
+- id: TclActor
+  className: org.restflow.tcl.TclActor
+  singleton: false
+  properties:
+
+- id: TclActorNode
+  type: Node
+  properties:
+    actor: !inline
+      type: TclActor
+ 
