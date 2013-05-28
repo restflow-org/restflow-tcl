@@ -658,4 +658,18 @@ public class TestTclWorkflows extends RestFlowTestCase {
 
 		assertEquals(23, 		_store.size());
 	}
+	
+
+	
+	//TODO make this work
+//	public void test_ScratchFiles_TclActor_DataDrivenDirector() throws Exception {
+//		configureForTclActor();
+//		_useWorkingDirectory();
+//		_loadAndRunWorkflow("ScratchFiles", _dataDrivenDirector());
+//		assertEquals(_getExpectedTrace(), _runner.getTraceAsString());;		
+//		assertEquals(_getExpectedStdout(), _runner.getStdoutRecording());		
+//		assertFileResourcesMatchExactly("messages");
+//		assertFileResourcesMatchExactly("scratch");
+//	}
+	
 }
