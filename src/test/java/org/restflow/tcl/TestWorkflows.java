@@ -2,10 +2,10 @@ package org.restflow.tcl;
 
 import org.restflow.test.WorkflowTestCase;
 
-public class TestWorkflowsTcl extends WorkflowTestCase {
+public class TestWorkflows extends WorkflowTestCase {
 
-	public TestWorkflowsTcl() {
-		super("workflows");
+	public TestWorkflows() {
+		super("org/restflow/test/TestWorkflows");
 	}
 
 	@Override
