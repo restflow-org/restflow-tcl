@@ -1,6 +1,6 @@
 imports:
 
-- classpath:/org/restflow/tcl/tclActor.yaml
+- classpath:/org/restflow/tcl/types.yaml
 
 components:
 
